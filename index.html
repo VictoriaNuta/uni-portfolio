@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>UX Designer | Victoria</title>
+</head>
+<body class="wrapper">
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/img/logo.svg" alt="Logo">
+        </div>
+        <section>
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                    <a href="/index.html" onclick="closeNav()">Home</a>
+                    <a href="/learning.html" onclick="closeNav()">Learning Journey</a>
+                    <a href="/blog.html" onclick="closeNav()">Blog</a>
+                </div>
+            </div>
+            <button class="menu" onclick="this.classList.toggle('opened'); openNav(); closeNav(); this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria- aria-label="Main Menu">
+            <svg width="50" height="50" viewBox="0 0 100 100">
+                <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+            </svg>
+            </button>
+        </section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/learning.html">Learning Journey</a>
+                </li>
+                <li>
+                    <a href="/blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero-text">
+            <h1 class="heading">Hi, I'm Victoria Nuta, an UI/UX Designer</h1>
+            <h4 class="subheading">
+                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+            </h4>
+            <button class="button">Let's talk</button>
+        </section>
+        <footer class="footer">
+            <section class="side-bar social-media">
+                <ul>
+                    <li>
+                      <a class="facebook" href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="twitter" href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="instagram" href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="google" href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+            </section>
+        </footer>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

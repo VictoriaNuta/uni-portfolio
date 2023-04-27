@@ -91,8 +91,6 @@ color: black;
 
 .subheading {
   font-size: 1em;
-  margin: 0;
-  padding-top: 10px;
   opacity: .7;
 }
 
@@ -122,6 +120,8 @@ text-align: center;
 padding: 0 15px;
 max-width: 1000px;
 margin: 30px auto;
+padding: 15px;
+background-color: rgb(255, 255, 255, .8);
 }
 
 .chapter-section {
@@ -157,14 +157,14 @@ opacity: 1;
 margin: 0 auto;
 max-width: 1020px;
 padding: 10px;
-background-color: rgb(234, 205, 207, .6);
+background-color: rgb(255, 255, 255, .8);
 }
 
 .list {
 margin: 10px 0;
 }
 
-.list:last-child {
+.conclusion {
 margin-bottom: 100px;
 }
 
